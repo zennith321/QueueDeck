@@ -3,14 +3,15 @@
 This plugin gives you full control over matchmaking all through commands. This means you can bind these commands to certain hotkeys to select/deselect playlists, start/stop matchmaking, start searching in a specific playlist, and even change regions! All of these commands will work anywhere whether it be in freeplay or right after a match has ended.
 
 ### Example
-Let's say you wanted to bind a commbination of commands to the one numpad button (search casual standard and casual doubles).
+Let's say you wanted to bind a combination of the commands from this plugin to a singular button on your keyboard.
+In this example I'll show you how to search for both standard and doubles in casual automatically.
 
 First you would create your own `example.cfg` file in `bakkesmod\cfg` and name it whatever you'd like.
 In that config file you would put the following commands:
 
 ```
 queue_view_casual
-queue_deselect_casual // This is optional, this would deselect any playlists you had selected previously that you might have forgotten
+queue_deselect_casual // Optional, this would deselect any playlists you had selected previously that you might have forgotten
 queue_select_cstandard
 queue_select_cdoubles
 queue_search
