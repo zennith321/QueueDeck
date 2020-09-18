@@ -10,7 +10,7 @@ First you would create your own `example.cfg` file in `bakkesmod\cfg` and name i
 In that config file you would put the following commands:
 
 ```
-queue_view_casual
+queue_view_casual // It's important to set the view tab first or searching will not work properly, you don't need to do this for "queue_search_cstandard" related commands as it does this automatically
 queue_deselect_casual // Optional, this would deselect any playlists you had selected previously that you might have forgotten
 queue_select_cstandard
 queue_select_cdoubles
